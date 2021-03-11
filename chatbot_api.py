@@ -85,4 +85,4 @@ api.add_resource(Chat, '/get/<msg>')
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="10.100.0.63")
